@@ -11,7 +11,7 @@
     --sofia: 'Sofia', cursive;
 }
 
-.primary-color{
+.primary-color{ 
     color: var(--primary-color);
 }
 
