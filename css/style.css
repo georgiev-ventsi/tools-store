@@ -65,7 +65,7 @@ header .site-title{
 }
 
 .navbar-nav .nav-item .nav-link{
-    padding: 0 1.3em;;
+    padding: 0 1.3em;
 }
 
 .navbar-nav .basket-icon{
@@ -112,6 +112,7 @@ header .site-title{
     bottom: 0;
     right: 45%;
 }
+
 
 .slick-dots li{
     margin: 0 0.6rem;
@@ -163,8 +164,12 @@ header .site-title{
     background-color: var(--primary-color);
 }
 
+/* article */
 
-
+.article{
+    margin: 5rem 0rem;
+    font-family: var(--roboto);
+}
 
 /* Footer */
 footer {
