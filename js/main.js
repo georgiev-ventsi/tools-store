@@ -12,14 +12,35 @@
 
 
 //  second slider
- $('.slider-two')
- .not("slick-initialized")
- .slick({
-     prevArrow: ".site-slider-two .prev",
-     nextArrow: ".site-slider-two .next",
-     slidesToShow: 5,
-     slidesToScroll: 1,
-     autoplay: true,
-     autoplaySpeed: 2000
- })
 
+$(document).ready(function() {
+    // This will fire when document is ready:
+    $(window).resize(function() {
+        // This will fire each time the window is resized:
+        if($(window).width() >= 1024) {
+            // if larger or equal
+            $('.slider-two')
+            .not("slick-initialized")
+            .slick({
+                prevArrow: ".site-slider-two .prev",
+                nextArrow: ".site-slider-two .next",
+                slidesToShow: 5,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000
+            });
+        } else {
+            // if smaller
+            $('.slider-two')
+            .not("slick-initialized")
+            .slick({
+                prevArrow: ".site-slider-two .prev",
+                nextArrow: ".site-slider-two .next",
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000
+            });
+        }
+    }).resize(); // This will simulate a resize to trigger the initial run.
+});

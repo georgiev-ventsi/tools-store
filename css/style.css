@@ -110,7 +110,7 @@ header .site-title{
     list-style-type: none;
     position: absolute;
     bottom: 0;
-    right: 50%;
+    right: 45%;
 }
 
 .slick-dots li{
@@ -141,7 +141,7 @@ header .site-title{
 }
 
 .site-slider-two .product{
-    height: 25rem;
+    height: 15rem;
     position: relative;
     overflow: hidden;
 }
@@ -151,7 +151,7 @@ header .site-title{
     margin: auto;
 }
 
-.site-btn.btn-span{
+.site-btn .btn-span{
     padding: 0.8rem 1.9rem;
     border-radius: 4rem;
     border: 1px solid var(--border);
@@ -163,8 +163,12 @@ header .site-title{
     background-color: var(--primary-color);
 }
 
+
+
+
 /* Footer */
 footer {
+    margin-top: 10rem;
     width: 100%;
     text-align: center;
     bottom: 0;
