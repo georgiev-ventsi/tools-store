@@ -10,6 +10,7 @@
      nextArrow: ".site-slider .slider-btn .next"
  })
 
+//  to do - slider one i banner slider sa s ednakvi id i klasove. nqma JS logika za banner-slider
 
 //  second slider
 
