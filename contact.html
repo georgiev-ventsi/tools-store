@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/favicon_vs/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon_vs/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon_vs/favicon-16x16.png">
+    <link rel="manifest" href="./assets/favicon/favicon_vs/site.webmanifest">
+    <title>VS Trade</title>
+
+    <!-- Bootstrap CDN -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+
+    <!-- Font Awesome CDN -->
+    <script
+      src="https://kit.fontawesome.com/a63b0d4b15.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Slick Slider -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/contact.css">
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-sm-12 col-12">
+            <div class="btn-group">
+              <button
+                class="btn border dropdown-toggle my-md-4 my-2 text-white"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                BGN
+              </button>
+              <div class="dropdown-menu">
+                <a href="#" class="dropdown-item">EUR - Euro</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-12 text-center">
+            <h2 class="my-md-3 site-title text-white">Online Store</h2>
+          </div>
+          <div class="col-md-4 col-12 text-right">
+            <p class="my-md-4 header-links">
+              <a href="#" class="px-2">Вход</a>
+              <a href="#" class="px-1">Създай акаунт!</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid p-0">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+          <a class="navbar-brand" href="./index.html">VS Trade</a>
+          <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="./index.html"
+                  >НАЧАЛО <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">КАТЕГОРИИ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">МАРКИ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">КОНТАКТИ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">ЗА НАС</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="navbar-nav">
+            <li class="nav-item border rounded-circle mx-2 search-icon">
+              <i class="fas fa-search p-2"></i>
+            </li>
+            <li class="nav-item border rounded-circle mx-2 basket-icon">
+              <i class="fas fa-shopping-basket p-2"></i>
+            </li>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- /Header -->
+
+    <!-- Main -->
+    <main>
+    
+      <article id="connection">
+        <section id="top">
+          <h2>Нека се свържем!</h2>
+          <p>
+            <h5>Готови ли сте с избора на машина? Това е страхотно!</h5>
+          </p>
+          <p>
+            <h5>Обадете ни се или изпратете e-mail!</h5>
+          </p>
+        </section>
+        <!--Section: Contact v.2-->
+        <section class="mb-4">
+          <p class="text-center w-responsive mx-auto mb-5">
+            Имате ли някакви въпроси? 
+            Моля, не се колебайте да се свържете директно с нас. 
+            Екипът ни ще се свърже с Вас при първа възможност!</p>
+
+          <div class="row">
+
+              <!--Grid column-->
+              <div class="col-md-9 mb-md-0 mb-5">
+                  <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                      <!--Grid row-->
+                      <div class="row">
+
+                          <!--Grid column-->
+                          <div class="col-md-6">
+                              <div class="md-form mb-0">
+                                  <input type="text" id="name" name="name" class="form-control">
+                                  <label for="name" class="">Име</label>
+                              </div>
+                          </div>
+                          <!--Grid column-->
+
+                          <!--Grid column-->
+                          <div class="col-md-6">
+                              <div class="md-form mb-0">
+                                  <input type="text" id="email" name="email" class="form-control">
+                                  <label for="email" class="">Email за контакт</label>
+                              </div>
+                          </div>
+                          <!--Grid column-->
+
+                      </div>
+                      <!--Grid row-->
+
+                      <!--Grid row-->
+                      <div class="row">
+                          <div class="col-md-12">
+                              <div class="md-form mb-0">
+                                  <input type="text" id="subject" name="subject" class="form-control">
+                                  <label for="subject" class="">Тема</label>
+                              </div>
+                          </div>
+                      </div>
+                      <!--Grid row-->
+
+                      <!--Grid row-->
+                      <div class="row">
+
+                          <!--Grid column-->
+                          <div class="col-md-12">
+
+                              <div class="md-form">
+                                  <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                                  <label for="message">Вашето съобщение</label>
+                              </div>
+
+                          </div>
+                      </div>
+                      <!--Grid row-->
+
+                  </form>
+
+                  <div class="text-center text-md-left">
+                      <a class="btn btn-primary">Send</a>
+                  </div>
+                  <div class="status"></div>
+              </div>
+              <!--Grid column-->
+
+              <!--Grid column-->
+              <div class="col-md-3 text-center">
+                  <ul class="list-unstyled mb-0">
+                      <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                          <p>VS TRADE ООД,</p>
+                          <p>ул.Сухиндол, бл.110</p>
+                          <p>София, 1000</p>
+                      </li>
+
+                      <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                          <p>+359 895 49 00 19</p>
+                      </li>
+
+                      <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                          <p>office@draftshub.com</p>
+                      </li>
+                  </ul>
+              </div>
+              <!--Grid column-->
+          </div>
+      </section>
+      <!--Section: Contact v.2-->
+
+    </main>
+    <!-- /Main -->
+
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; VS TRADE ООД</p>
+      <h6>Copyright since 2020. All rights reserved</h6>
+    </footer>
+    <!-- /Footer -->
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
