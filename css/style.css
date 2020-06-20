@@ -109,7 +109,7 @@ header .site-title{
     padding: 1rem 0;
     list-style-type: none;
     position: absolute;
-    bottom: 0;
+    bottom: 5;
     right: 45%;
 }
 
@@ -120,11 +120,11 @@ header .site-title{
 
 .slick-dots button{
     display: block;
-    width: 0.5rem;
+    width: 0.8rem;
     height: 0.5rem;
     padding: 0;
     border: none;
-    background-color: rgb(128, 128, 128);
+    background-color: var(--primary-color);
     text-indent: -99999px;
     border-radius: 100%;
 }
@@ -163,6 +163,20 @@ header .site-title{
 .slider-two .slick-track .product:hover span {
     background-color: var(--primary-color);
 }
+/* Categories */
+
+#first-row-categories {
+    margin: 5rem 5rem;
+}
+
+#second-row-categories {
+    margin: 2rem 5rem;
+}
+
+.img-responsive{
+    width: 100%;
+ }
+
 
 /* article */
 
@@ -173,7 +187,7 @@ header .site-title{
 
 /* Footer */
 footer {
-    margin-top: 10rem;
+    margin-top: 5rem;
     width: 100%;
     text-align: center;
     bottom: 0;
